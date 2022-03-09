@@ -12,7 +12,14 @@ def home():
 def about():
     return  render_template('about.html')
 
-
 @app.route('/contact')
 def contact():
     return render_template('contact.html')
+
+@app.route('/cupcakes')
+def cupcakes():
+    return render_template('cupcakes.html')
+
+@app.route('/cakes')
+def cakes():
+    return render_template('cakes.html')

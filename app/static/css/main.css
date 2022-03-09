@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
+
+body{
+    margin-top: -2rem;
+
+}
+
+h1 {
+    font-family: 'Comforter Brush', cursive;
+    font-weight: 800;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+    color: #e9ecef;
+}
+
+
+h3 {
+    font-family: serif;
+    color: #377ba8;
+    margin: 1rem 0;
+}
+
+header {
+    background: fixed;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+}
+
+
+#footer-container {
+    color: #e9ecef;
+    text-decoration: none;
+}
+
+ul, li, a {
+    text-decoration: none;
+    color: #e9ecef
+}
+
+a:hover {
+    text-decoration: none;
+    color: #0c0e27;
+}
+
+i:hover {
+    color: #0c0e27;
+}
