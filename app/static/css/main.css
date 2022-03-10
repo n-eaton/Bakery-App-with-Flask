@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
 
-body{
+body {
     margin-top: -2rem;
-
+    box-sizing: border-box;
 }
 
 h1 {
@@ -11,6 +11,11 @@ h1 {
     letter-spacing: 10px;
     word-spacing: 10px;
     color: #e9ecef;
+}
+
+.navbar {
+    background: #e90954;
+    padding-left: 13%;
 }
 
 
@@ -45,4 +50,26 @@ a:hover {
 
 i:hover {
     color: #0c0e27;
+}
+
+
+.title {
+    text-align: center;
+    padding: 25px 0;
+
+}
+
+.card {
+    margin: 20px 10px;
+}
+
+.card-body {
+    color: aqua;
+    margin-top: auto;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
 }
